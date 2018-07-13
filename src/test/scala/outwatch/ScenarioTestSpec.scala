@@ -274,6 +274,5 @@ class ScenarioTestSpec extends JSDomSpec {
     document.getElementById(todo).dispatchEvent(clickEvt)
 
     list.childElementCount shouldBe 0
-
   }
 }
