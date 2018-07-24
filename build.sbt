@@ -1,4 +1,4 @@
-enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
+enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin, TutPlugin)
 
 name := "OutWatch"
 
