@@ -63,6 +63,8 @@ scalacOptions ++= {
   }
 }
 
+scalacOptions in Tut --= Seq("-Ywarn-unused-import", "-Ywarn-unused:imports")
+
 requiresDOM in Test := true
 useYarn := true
 

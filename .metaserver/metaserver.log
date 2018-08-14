@@ -1,0 +1,7 @@
+10:32:19.563 INFO  s.m.l.Main$ - Starting server in /home/felix/projects/outwatch
+10:32:19.570 INFO  s.m.l.Main$ - Classpath: /home/felix/scalameta_lsp
+10:32:20.955 INFO  s.m.l.Formatter$ - Classloading scalafmt with 28 downloaded jars
+10:32:21.303 INFO  s.m.l.Main$ - Listening....
+10:32:21.342 INFO  s.m.l.ScalametaServices - Initialized with /home/felix/projects/outwatch, InitializeParams(17663,/home/felix/projects/outwatch,ClientCapabilities())
+10:32:21.629 INFO  s.m.l.ScalametaServices - Client is initialized
+10:44:23.572 INFO  s.m.l.ScalametaServices - exit(1)
