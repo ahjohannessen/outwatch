@@ -39,24 +39,26 @@ Running `Main` will result in:
 ...
 ```
 
-# Concatenating Strings
+## Static Content
+
+### Concatenating Strings
 
 ```scala
 div("Hello ", "World") // <div>Hello World</div>
 ```
 
-# Nesting
+### Nesting
 
 ```scala
 div(span("Hey ", b("you"), "!")) // <div>Hey <b>you</b>!</div>
 ```
 
-# Primitives
+### Primitives
 
 ```scala
 div(true, 0, 1000L, 3.0) // <div>true010003.0</div>
 ```
-# Attributes
+### Attributes
 Attributes are put inside the tag.
 
 ```scala
@@ -70,24 +72,29 @@ div("How ", id := "test", "are", title := "cool", " you?") // <div id="test" tit
 ```
 
 
-# Styles
-# class accumulation
-# vnode apply
-# Composite VDomModifier
+### Styles
+### class accumulation
+### vnode apply
+### Composite VDomModifier
 
-# Option
-# Seq
-# Observable[Modifier], Observable[Option[Modifier]], Dynamic Attributes
+### Option
+### Seq
 
-# Emitters
-# sideEffect
+## Dynamic Content
+### Observable[Modifier], Observable[Option[Modifier]], Dynamic Attributes
 
-# scala.rx
-# d3
-# fontAwesome
-# draggable
+### features from scalatags
 
-# renderInto, renderReplace, querySelector, Element
-# Flexbox, vnode apply
-# Handler[Boolean], if/else
-# keys, for static input fields
+### Emitters
+### sideEffect
+
+### scala.rx
+### d3
+### fontAwesome
+### draggable
+
+
+### renderInto, renderReplace, querySelector, Element
+### Flexbox, vnode apply
+### Handler[Boolean], if/else
+### keys, for static input fields
